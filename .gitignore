@@ -1,0 +1,18 @@
+# Build outputs
+backend/target/
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+
+# Local environment files
+**/.env
+**/.env.*
+!**/.env.example
+
+# Editor settings
+.vscode/*
+!.vscode/extensions.json
+.idea/
+
+# Logs
+*.log
